@@ -1,0 +1,17 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+    position:absolute;
+    left: 68.8vw;
+    right: 0;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}

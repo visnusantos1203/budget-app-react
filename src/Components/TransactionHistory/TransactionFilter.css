@@ -1,0 +1,27 @@
+.transaction-filter {
+    color: white;
+    padding: 0 .1rem;
+    width:  85%;
+  }
+.transaction-filter__control {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+  }
+.transaction-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: .9rem;
+    color: black;
+    margin-top: 10px;
+  }
+.transaction-filter select {
+    font: inherit;
+    padding: 1px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 10px;
+    height: 10%;
+  }

@@ -1,0 +1,20 @@
+.transaction-list-container{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y:scroll;
+}
+
+.transaction-list-container::-webkit-scrollbar{
+  display: none;
+}
+.transaction-list {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+  }
+  .transaction-list__fallback {
+    color: white;
+    text-align: center;
+  }

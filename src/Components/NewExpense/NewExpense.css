@@ -1,0 +1,28 @@
+.new-expense {
+    width: 95%;
+    max-width: 95%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+  .new-expense button {
+    cursor: pointer;
+    border: 1px solid #40005d;
+    color: black;
+    height: 100%;
+    margin: 0;
+  }
+  .new-expense button:hover,
+  .new-expense button:active {
+    border-color: #510674;
+  }
+  .new-expense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .new-expense button.alternative:hover,
+  .new-expense button.alternative:active {
+    background-color: #ddb3f8;
+  }
