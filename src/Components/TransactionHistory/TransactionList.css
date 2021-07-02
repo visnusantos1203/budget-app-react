@@ -3,6 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   overflow-y:scroll;
+  height: auto;
 }
 
 .transaction-list-container::-webkit-scrollbar{
@@ -16,5 +17,35 @@
   }
   .transaction-list__fallback {
     color: white;
+    text-align: center;
+  }
+
+  .transaction-title{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 3rem;
+    background-color: white;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+  }
+
+  #date-title{
+    font-weight: bolder;
+    width: 37%;
+    text-align: center;
+  }
+  #transaction-title{
+    font-weight: bolder;
+    width: 37%;
+    text-align: left;
+    padding-left: 5%
+  }
+
+  #amount-title{
+    font-weight: bolder;
+    width: 22%;
     text-align: center;
   }

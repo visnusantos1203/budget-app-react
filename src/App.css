@@ -3,36 +3,44 @@
 }
 
 .App {
-  text-align: center;
-  padding: 1rem;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5vw;
   box-shadow: 8px 8px 4px 0px #56000040;
-  width: 90vw;
-  height: auto;
+  width: 99vw;
+  height: 100vh;
   background-color: #E5E5E5;
-  background-image: url("./assets/bg-1.png");
+  /*background-image: url("./assets/bg-1.png");*/
   background-position-y: 5vh;
   background-position-x: center;
   background-size: 80%;
   background-blend-mode: luminosity, normal;
   background-repeat: no-repeat;
   padding-top: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   scroll-snap-align: start;
-  margin-top: 6vw;
+  margin-top: 4vw;
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98.8vw;
+  height: 10vh;
+  padding: 0;
+  margin: 0;
+  position:absolute;
+  left: 0;
+  top: 0;
+  background-color: teal;
+}
 .btn-container{
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 30%;
   height: 5%;
-  margin-top: 10px;
   padding: 0;
 }
 

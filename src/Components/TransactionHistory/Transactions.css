@@ -2,7 +2,7 @@
 
 .transaction-item {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     background-color: #f8eded;
@@ -12,49 +12,45 @@
     height: 40px;
     overflow: hidden;
   }
-  .transaction-item__description {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 200px;
-  }
+
   .transaction-item h2 {
-    font-size: .50rem;
+    font-size: 1rem;
     margin: 0 1rem;
     color: rgb(0, 0, 0);
     font-weight: normal;
     letter-spacing: normal;
-    width: 50%;
+    width: 42%;
+    text-align: left;
   }
   .transaction-item__price {
-    font-size: .75rem;
+    font-size: 1rem;
     font-weight: bold;
-    color: rgb(20, 6, 6);
-    border-radius: 12px;
+    color: rgb(0, 0, 0);
     font-weight: normal;
+    width: 15%;
   }
 
+  #green{
+    color: green;
+    font-weight: bolder;
+    text-align: left;
+    /*border-bottom: 2px solid green;*/
+  }
+
+  #red{
+    color: red;
+    font-weight: bolder;
+    text-align: right;
+/*     border-bottom: 2px solid red;
+ */    padding: 5px;
+  }
   #delete-btn{
     height: 20px;
-    width: auto;
+    font-size: 1rem;
+    width: 10%;
     border: none;
   }
 
   #delete-btn:hover{
     cursor: pointer;
-  }
-  @media (min-width: 580px) {
-    .transaction-item__description {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .transaction-item__description h2 {
-      font-size: 0.5rem;
-    }
-    .transaction-item__price {
-      font-size: 0.5rem;
-      padding: 0.5rem 1.5rem;
-    }
   }

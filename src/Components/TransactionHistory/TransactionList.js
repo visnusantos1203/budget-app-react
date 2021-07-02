@@ -7,6 +7,11 @@ const TransactionList = (props) => {
     }
     return(
         <div className="transaction-list-container">
+            <div className="transaction-title">
+                <div id="date-title">Date</div>
+                <div id="transaction-title">Transaction Title</div>
+                <div id="amount-title">Amount</div>
+            </div>
             <ul className="transaction-list">
                 {
                     props.items.map((item, index) => (
@@ -15,6 +20,7 @@ const TransactionList = (props) => {
                             title={item.title}
                             date={item.date}
                             amount={item.amount}
+                            type={item.type}
                         />
                     ))        
                 }

@@ -1,27 +1,61 @@
 .display-balance-container{
     display: flex;
-    flex-direction: column;
-    width: 85%;
-    height: auto;
-    background-color: rgb(204, 173, 173);
-    border-radius: 10px;
-    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 78%;
+    height: 19%;
+    background-color: rgb(71, 71, 71);
+    border: 1px solid black;
+    margin-top: 2%;
     padding: 15px;
 }
 
-.display-balance-container p {
-    font-size: 1rem;
-    text-align: left;
-    padding: 5px;
-    padding-top: 3px;
+.display-subcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
     margin: 0;
-    color: aliceblue;
 }
 
-#balance-amount{
-    text-align: right;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+.display-subcontainer p{
     font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10%;
+}
+
+.income{
+    border: transparent;
+    border-right: 3px solid rgb(212, 212, 212);
+}
+
+.expense{
+    border: transparent;
+    border-right: 3px solid rgb(214, 214, 214);
+}
+
+.balance{
+    border: transparent;
+}
+#balance-amount{
+    color: rgb(164, 177, 252);
     margin: 0;
+    padding: 5px;
+    text-align: right;
+    font-size: 1.5rem;
+}
+#income-amount{
+    color: rgb(37, 177, 37);
+    padding: 5px;
+    padding-right: 15%;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+#expenses-amount{
+    color: rgb(204, 4, 4);
+    padding: 5px;
+    padding-right: 15%;
+    text-align: right;
+    font-size: 1.5rem;
 }

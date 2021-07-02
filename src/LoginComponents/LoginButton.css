@@ -1,0 +1,25 @@
+.login-btn-container{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 30vw;
+   background-color: transparent;
+   height: inherit;
+}
+
+#login-button{
+    background-color: transparent;
+    border: none;
+}
+
+#icon{
+    background: transparent;
+    border-radius: 50%;
+    color: black;
+    height: 10vh;
+    width: 2rem;
+}
+
+#login-button:hover{
+    cursor: pointer;
+}

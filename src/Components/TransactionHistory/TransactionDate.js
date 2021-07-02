@@ -1,7 +1,7 @@
 import "./TransactionDate.css"
 
 const TransactionDate = (props) => {
-    const month = props.date.toLocaleString("en-US", { month: "2-digit" })
+    const month = props.date.toLocaleString("en-US", { month: "short" })
     const year = props.date.getFullYear()
     const day = props.date.toLocaleString("en-US", { day: "2-digit" })
     return(

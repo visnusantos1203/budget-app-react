@@ -1,4 +1,4 @@
-.loginForm-container{
+.signup-container{
     text-align: center;
     padding: 1rem;
     text-align: center;
@@ -13,8 +13,7 @@
     background-color: white;
     scroll-snap-type: y proximity;
     position: absolute;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
-    z-index: 1;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25)
 }
 
 .form-group{
@@ -24,29 +23,14 @@
     align-items: flex-start;
     width: 100%;
 }
-.loginForm-container input{
+.signup-container input{
     width: inherit;
 }
 
-#login-btn{
+#signup-btn{
     margin-top: 1rem;
     width: auto;
     margin-left: auto;
     margin-right: auto;
     justify-self: center;
-}
-
-#register{
-    color: blue;
-    font-size: 1em;
-}
-
-#close-button{
-    align-self: flex-end;
-    border: none;
-    background-color: transparent;
-}
-
-#close-button:hover{
-    cursor: pointer;
 }
